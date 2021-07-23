@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding: 3%;
 }
 
 .App-logo {
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.videoDiv{
+    height: 75vh;
+    overflow: hidden;
+}
+.responsiveIframe{
+    width: 100%;
+    height: inherit;
+    bottom: 60px;
+    position: relative;
+
 }
